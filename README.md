@@ -66,9 +66,9 @@ Animal Classification with Baseline CNN Architecture, ResNet50 Transfer Learning
 
 - Scheduler: Sử dụng CosineAnnealingLR để điều chỉnh learning rate mượt mà, giúp hội tụ tốt hơn vào cuối quá trình train.
 
-<img width="280" height="210" alt="seen_confusion_matrix" src="https://github.com/user-attachments/assets/97ece675-34aa-4d59-bcc1-605f16174b26" />
-<img width="280" height="210" alt="pig_confusion_matrix" src="https://github.com/user-attachments/assets/1b0307a1-e8ac-494c-96f7-cbdc41257588" />
-<img width="280" height="210" alt="tsne_FewshotLearning" src="https://github.com/user-attachments/assets/0e18b6ed-b790-4e66-9588-c6be4ce87eda" />
+<img width="260" height="200" alt="seen_confusion_matrix" src="https://github.com/user-attachments/assets/97ece675-34aa-4d59-bcc1-605f16174b26" />
+<img width="260" height="200" alt="pig_confusion_matrix" src="https://github.com/user-attachments/assets/1b0307a1-e8ac-494c-96f7-cbdc41257588" />
+<img width="260" height="200" alt="tsne_FewshotLearning" src="https://github.com/user-attachments/assets/0e18b6ed-b790-4e66-9588-c6be4ce87eda" />
 
 
 ### 3. Metric Learning (One-Shot Learning)
