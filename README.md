@@ -66,9 +66,9 @@ Animal Classification with Baseline CNN Architecture, ResNet50 Transfer Learning
 
 - Scheduler: Sử dụng CosineAnnealingLR để điều chỉnh learning rate mượt mà, giúp hội tụ tốt hơn vào cuối quá trình train.
 
-<img width="320" height="270" alt="seen_confusion_matrix" src="https://github.com/user-attachments/assets/97ece675-34aa-4d59-bcc1-605f16174b26" />
-<img width="320" height="270" alt="pig_confusion_matrix" src="https://github.com/user-attachments/assets/1b0307a1-e8ac-494c-96f7-cbdc41257588" />
-<img width="340" height="270" alt="tsne_FewshotLearning" src="https://github.com/user-attachments/assets/0e18b6ed-b790-4e66-9588-c6be4ce87eda" />
+<img width="280" height="210" alt="seen_confusion_matrix" src="https://github.com/user-attachments/assets/97ece675-34aa-4d59-bcc1-605f16174b26" />
+<img width="280" height="210" alt="pig_confusion_matrix" src="https://github.com/user-attachments/assets/1b0307a1-e8ac-494c-96f7-cbdc41257588" />
+<img width="280" height="210" alt="tsne_FewshotLearning" src="https://github.com/user-attachments/assets/0e18b6ed-b790-4e66-9588-c6be4ce87eda" />
 
 
 ### 3. Metric Learning (One-Shot Learning)
@@ -99,7 +99,7 @@ Animal Classification with Baseline CNN Architecture, ResNet50 Transfer Learning
 
 Thresholding: Phân tích ROC Curve để tìm ra ngưỡng tối ưu (0.3711) giúp phân tách lớp Butterfly (Unseen) ra khỏi các lớp Seen với độ chính xác ~93.84%.
 
-<img width="1500" height="900" alt="normalized_distance_distribution" src="https://github.com/user-attachments/assets/9f42c896-37ed-40a1-b967-80e5881ccefc" />
+<img width="1000" height="750" alt="normalized_distance_distribution" src="https://github.com/user-attachments/assets/9f42c896-37ed-40a1-b967-80e5881ccefc" />
 
 
 ### 4. Self-Supervised Learning (Contrastive - SimCLR)
@@ -121,5 +121,5 @@ Sử dụng framework SimCLR. Ý tưởng là một ảnh khi bị biến đổi
 
 Evaluation: Kiểm chứng bằng Linear Evaluation Protocol (train một Linear Classifier trên feature đã đóng băng) và trực quan hóa bằng t-SNE để chứng minh các cụm dữ liệu phân tách rõ ràng.
 
-<img width="500" height="420" alt="confusion_matrix_simclr_final" src="https://github.com/user-attachments/assets/f51bb0b1-138f-4530-9f8f-e77a6a960fbe" />
-<img width="500" height="440" alt="tsne_simclr_final" src="https://github.com/user-attachments/assets/937bf751-3f8e-4097-98d4-a7355beb3b5e" />
+<img width="400" height="300" alt="confusion_matrix_simclr_final" src="https://github.com/user-attachments/assets/f51bb0b1-138f-4530-9f8f-e77a6a960fbe" />
+<img width="400" height="300" alt="tsne_simclr_final" src="https://github.com/user-attachments/assets/937bf751-3f8e-4097-98d4-a7355beb3b5e" />
