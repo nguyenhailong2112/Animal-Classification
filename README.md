@@ -123,3 +123,13 @@ Evaluation: Kiểm chứng bằng Linear Evaluation Protocol (train một Linear
 
 <img width="400" height="300" alt="confusion_matrix_simclr_final" src="https://github.com/user-attachments/assets/f51bb0b1-138f-4530-9f8f-e77a6a960fbe" />
 <img width="400" height="300" alt="tsne_simclr_final" src="https://github.com/user-attachments/assets/937bf751-3f8e-4097-98d4-a7355beb3b5e" />
+
+## TỔNG KẾT
+
+- Đạt độ chính xác 97.9% với mô hình ResNet50 tinh chỉnh, triển khai K-Fold Cross Validation và Data Augmentation để tăng độ tin cậy mô hình.
+
+- Triển khai Few-Shot Learning (Prototypical Networks) đạt 92.5% accuracy và One-Shot Learning (Siamese Networks) đạt 93.8% accuracy cho lớp dữ liệu mới với chỉ từ 1 đến 5 mẫu huấn luyện.
+
+- Triển khai Contrastive Learning (SimCLR) để học biểu diễn đặc trưng không giám sát, cải thiện đáng kể độ chính xác so với phương pháp supervised thông thường và cho phép visualize phân bố đặc trưng bằng t-SNE.
+
+- (CẬP NHẬT CẢI TIẾN) Triển khai Vision Transformer (ViT) đạt độ chính xác 98.6% - cải thiện 0.7% so với ResNet50 baseline, chứng minh khả năng học đặc trưng bối cảnh toàn cục vượt trội cho bài toán phân loại động vật phức tạp.
